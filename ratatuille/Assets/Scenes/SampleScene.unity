@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -202,7 +202,6 @@ GameObject:
   - component: {fileID: 75367196}
   - component: {fileID: 75367198}
   - component: {fileID: 75367197}
-  - component: {fileID: 75367199}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -269,23 +268,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75367195}
   m_CullTransparentMesh: 0
---- !u!114 &75367199
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 75367195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 610a8270956f99d44beada9d9653df2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  EditionText: {fileID: 1069412259}
-  Operator: {fileID: 745225832}
-  Anser: {fileID: 1131545395}
-  input1: {fileID: 528244818}
-  input2: {fileID: 900999574}
 --- !u!1 &82279398
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,6 +279,7 @@ GameObject:
   - component: {fileID: 82279399}
   - component: {fileID: 82279401}
   - component: {fileID: 82279400}
+  - component: {fileID: 82279402}
   m_Layer: 5
   m_Name: Calculator
   m_TagString: Untagged
@@ -365,6 +348,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 82279398}
   m_CullTransparentMesh: 0
+--- !u!114 &82279402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82279398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f68fde811a4f547af4e6589892793c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EditionText: {fileID: 1069412259}
+  Operator: {fileID: 745225832}
+  Anser: {fileID: 1131545395}
+  input1: {fileID: 528244818}
+  input2: {fileID: 900999574}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -592,7 +592,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 75367199}
+      - m_Target: {fileID: 82279402}
         m_MethodName: Add
         m_Mode: 1
         m_Arguments:
@@ -794,6 +794,7 @@ GameObject:
   - component: {fileID: 534669905}
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
+  - component: {fileID: 534669906}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -865,6 +866,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534669906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453159d7af0cf324092d4eef713b5824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gamepanel: {fileID: 1122450443}
+  Downpanel: {fileID: 1748824219}
 --- !u!1 &745225830
 GameObject:
   m_ObjectHideFlags: 0

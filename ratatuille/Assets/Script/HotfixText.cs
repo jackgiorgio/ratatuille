@@ -1,4 +1,4 @@
-
+﻿
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -18,7 +18,7 @@ public class HotFixText : MonoBehaviour
         m_kLuaEnv = new LuaEnv(); //该变量最好保证全局就此一个
 
         //查找指定路径下lua热更文件
-        string path = Application.persistentDataPath + "/XluaText1.lua.txt";
+        string path = Application.persistentDataPath + "/XluaText.lua.txt";
         //用协程序下载读取文件内容
         StartCoroutine(DownloadFile(path));
     }
