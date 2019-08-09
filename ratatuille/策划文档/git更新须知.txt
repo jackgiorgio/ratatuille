@@ -1,0 +1,13 @@
+-- 拉取、更新git步骤
+
+1. git仓库: https://github.com/jackgiorgio/ratatuille
+
+2. 添加git步骤
+
+a. 打开File ->clone repository ->选择url -> 把上面的仓库填上去
+b. 选择一个本地地址（必须是空的文件夹）->点击 clone
+
+3. 更新git步骤：
+- 按照 - pull - 修改 - commit（写更改日志）- push 的顺序
+
+
