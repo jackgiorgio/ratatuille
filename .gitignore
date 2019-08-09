@@ -29,9 +29,15 @@ ExportedObj/
 *.pdb.meta
 *.meta
 
+# Unity3D version files
+ProjectSettings/ProjectVersion.txt
+Packages\manifest.json
+
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
 
 # Builds
 *.apk
 *.unitypackage
+ratatuille/Packages/manifest.json
+ratatuille/ProjectSettings/ProjectVersion.txt
