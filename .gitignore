@@ -39,3 +39,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+ratatuille/.vscode/settings.json
+ratatuille/Assets/XLua/Gen/Resources/*
